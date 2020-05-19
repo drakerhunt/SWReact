@@ -1,0 +1,105 @@
+h1, h2, h3, h4, h5, p {
+    margin: 12px;
+    font-family: sans-serif;
+}
+
+.head {
+    text-align: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+p {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+
+    border-radius: 12px;
+}
+
+.characteristics {
+    background-color: rgb(105, 86, 86);
+    text-align: center;
+
+    margin: 12px;
+    padding: 8px;
+
+    border-radius: 12px;
+}
+
+.char {
+    padding: 8px;
+}
+
+.charSpan {
+    display: inline-block;
+    font-size: x-large;
+
+    padding: 12px;
+}
+
+.charValues {
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    border:solid;
+    border-color: gold;
+    border-width: 12px;
+    width: 100px;
+    height: 100px;
+
+    box-shadow: inset 0 0 5px 5px;
+    box-shadow: 0 0 15px 2px;
+
+    margin: 12px;
+
+    line-height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+
+.section {
+    width: 80%;
+    background-color: rgb(202, 200, 200);
+
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    box-shadow: 0 20px 50px rgba(8, 112, 184, 0.7);
+}
+
+.skill {
+    float: left;
+    width: 50%;
+
+    padding: 6px;
+}
+
+.skillRank {
+    float: right;
+    padding: 6px;
+}
+
+.skills {
+    background-color: rgb(105, 86, 86);
+    margin: 6px;
+    padding: 8px;
+
+    border-radius: 12px;
+}
+
+.skillSpan {
+    display: inline-block;
+    background-color: rgb(51, 47, 45);
+    font-size: 18px;
+
+    width: 22%;
+    height: 3%;
+
+    margin: 6px;
+    padding: 6px;
+
+    border-radius: 12px;
+}
