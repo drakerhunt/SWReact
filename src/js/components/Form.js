@@ -101,6 +101,7 @@ class Form extends Component {
       <div>
         <h3>{this.state.character[i].characterName}</h3>
         <h4>{this.state.character[i].playerName}</h4>
+        <textarea placeholder="Wounds"></textarea>
       </div>
     )
   }
