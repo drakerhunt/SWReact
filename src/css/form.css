@@ -1,3 +1,15 @@
+button {
+    float: left;
+    margin: 12px;
+    height: 30px;
+    width: 50px;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 189, 0.719);
+    box-shadow: 0 0 5px 3px rgba(184, 8, 8, 0.7);
+    font-family: sans-serif;
+    color : white;
+}
+
 h1, h2, h3, h4, h5, p {
     margin: 12px;
     font-family: sans-serif;
@@ -5,8 +17,17 @@ h1, h2, h3, h4, h5, p {
 
 .head {
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     margin: 8px;
+}
+
+.diceArea {
+    height: 200px;
+    background-color: rgb(105, 86, 86);
+    margin: 12px;
+    padding: 14px;
+
+    border-radius: 12px;
 }
 
 p {
@@ -14,6 +35,13 @@ p {
     font-size: larger;
 
     border-radius: 12px;
+}
+
+.c {
+    display: inline-block;
+    border: solid;
+
+    margin: 6px;
 }
 
 .characteristics {
@@ -56,6 +84,28 @@ p {
     font-size: 75px;
 }
 
+.dropDown {
+    width: 30%;
+
+    margin: 6px;
+}
+
+input {
+    height: 28px;
+    width: 30%;
+
+    margin: 6px;
+}
+
+.input {
+    margin: 6px;
+    padding: 6px;
+
+    box-shadow: inset 0 0 1px 1px;
+    box-shadow: 0 0 15px 2px;
+    border-radius: 4px;
+}
+
 .section {
     width: 80%;
     background-color: rgb(202, 200, 200);
@@ -93,13 +143,43 @@ p {
 .skillSpan {
     display: inline-block;
     background-color: rgb(51, 47, 45);
-    font-size: 18px;
+    font-size: 16px;
 
     width: 22%;
-    height: 3%;
 
     margin: 6px;
     padding: 6px;
 
     border-radius: 12px;
+}
+
+.left {
+    border: solid;
+    display: none;
+}
+
+.talent {
+    margin-top: 45%;
+    font-size: small;
+}
+
+.talentContainer {
+    height: 125px;
+    width: 125px;
+
+    border: solid;
+    margin: 8px;
+
+    display: inline-flex;
+
+    text-align: center;
+    justify-content: center;
+}
+
+.talentMap {
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
 }
